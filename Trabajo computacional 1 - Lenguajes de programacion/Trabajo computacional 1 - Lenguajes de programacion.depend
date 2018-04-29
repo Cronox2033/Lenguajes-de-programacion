@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1524449847 source:c:\users\usuario\desktop\trabajo computacional 1 - lenguajes de programacion\main.cpp
+	<iostream>
+	<string>
+	"Cifrado.h"
+
+1524449783 c:\users\usuario\desktop\trabajo computacional 1 - lenguajes de programacion\include\cifrado.h
+	<iostream>
+	<string>
+
+1524450002 source:c:\users\usuario\desktop\trabajo computacional 1 - lenguajes de programacion\src\cifrado.cpp
+	<iostream>
+	<string>
+	"Cifrado.h"
+
