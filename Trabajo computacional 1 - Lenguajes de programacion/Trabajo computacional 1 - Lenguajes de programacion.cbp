@@ -35,8 +35,10 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="include/Cifrado.h" />
+		<Unit filename="include/Descifrado.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Cifrado.cpp" />
+		<Unit filename="src/Descifrado.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
