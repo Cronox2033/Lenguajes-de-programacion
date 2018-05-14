@@ -5,7 +5,7 @@ using namespace std;
 
 Descifrado::Descifrado()
 {
-    MensajeD = " ";
+    MensajeD = "  ";
     ClaveD = " ";
 }
 

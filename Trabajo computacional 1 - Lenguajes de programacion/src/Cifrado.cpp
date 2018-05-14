@@ -5,7 +5,7 @@ using namespace std;
 
 Cifrado::Cifrado()
 {
-    Mensaje = " ";
+    Mensaje = "  ";
     Clave = " ";
 }
 
@@ -16,6 +16,7 @@ Cifrado::~Cifrado()
 
  bool Cifrado::Verificador(string palabra){
     int y = 0,cont = 0;
+    if(palabra.length()<5){return false;}
     for(int i = 0; palabra[i] != NULL; i++){
         y = palabra[i];
         if(y < 65 || y >90){cont++;}

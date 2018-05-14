@@ -20,7 +20,7 @@ class Descifrado : public Cifrado
     protected:
 
     private:
-        char *Mensaje_Descifrado;
+        char *Mensaje_Descifrado = NULL;
         string MensajeD;
         string ClaveD;
         char AlfabetoD[26] = {'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'};

@@ -13,27 +13,29 @@
 	<string>
 	"Cifrado.h"
 
-1525814300 source:c:\users\usuario\documents\github\lenguajes-de-programacion\trabajo computacional 1 - lenguajes de programacion\main.cpp
+1526331128 source:c:\users\usuario\documents\github\lenguajes-de-programacion\trabajo computacional 1 - lenguajes de programacion\main.cpp
 	<iostream>
 	<string>
 	"Cifrado.h"
 	"Descifrado.h"
+	<windows.h>
+	<conio.h>
 
-1524449783 c:\users\usuario\documents\github\lenguajes-de-programacion\trabajo computacional 1 - lenguajes de programacion\include\cifrado.h
+1526325718 c:\users\usuario\documents\github\lenguajes-de-programacion\trabajo computacional 1 - lenguajes de programacion\include\cifrado.h
 	<iostream>
 	<string>
 
-1524450002 source:c:\users\usuario\documents\github\lenguajes-de-programacion\trabajo computacional 1 - lenguajes de programacion\src\cifrado.cpp
+1526330263 source:c:\users\usuario\documents\github\lenguajes-de-programacion\trabajo computacional 1 - lenguajes de programacion\src\cifrado.cpp
 	<iostream>
 	<string>
 	"Cifrado.h"
 
-1525814046 source:c:\users\usuario\documents\github\lenguajes-de-programacion\trabajo computacional 1 - lenguajes de programacion\src\descifrado.cpp
+1526326237 source:c:\users\usuario\documents\github\lenguajes-de-programacion\trabajo computacional 1 - lenguajes de programacion\src\descifrado.cpp
 	<iostream>
 	<string>
 	"Descifrado.h"
 
-1525813280 c:\users\usuario\documents\github\lenguajes-de-programacion\trabajo computacional 1 - lenguajes de programacion\include\descifrado.h
+1526325728 c:\users\usuario\documents\github\lenguajes-de-programacion\trabajo computacional 1 - lenguajes de programacion\include\descifrado.h
 	<iostream>
 	<string>
 	<Cifrado.h>

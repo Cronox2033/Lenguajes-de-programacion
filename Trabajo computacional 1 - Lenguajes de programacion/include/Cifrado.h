@@ -20,7 +20,7 @@ class Cifrado
     protected:
 
     private:
-        char *Mensaje_cifrado;
+        char *Mensaje_cifrado = NULL;
         string Mensaje;
         string Clave;
         char Alfabeto[26] = {'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'};
