@@ -28,7 +28,7 @@ string Descifrado::Get_ClaveD(){return ClaveD;}
 
 char *Descifrado::Descifrador(){
     Mensaje_Descifrado = new char [MensajeD.length()];
-    int aux,aux2[ClaveD.length()],cont = 0,temp,temp2[MensajeD.length()];
+    int aux,aux2[ClaveD.length()],cont = 0,temp,temp2[MensajeD.length()],cont2 = 0;;
     for(int i=0; ClaveD[i]!= NULL; i++){
         for(int k = 0; k<26; k++){
             if(ClaveD[i]==AlfabetoD[k]){aux2[i]=k;}
@@ -36,7 +36,7 @@ char *Descifrado::Descifrador(){
     }
     for(int i = 0; i<MensajeD.length(); i++){
         cout<< MensajeD[i] << " | ";
-        temp2[i]=-1;
+        temp2[i]=-50;
     }
     cout<<endl;
     for(int i = 0; MensajeD[i]!= NULL; i++){
@@ -54,6 +54,7 @@ char *Descifrado::Descifrador(){
             }
             else{Mensaje_Descifrado[i] = AlfabetoD[temp];}
             cont++;
+            cont2++;
             if(cont==ClaveD.length()){cont = 0;}
         }
         else{Mensaje_Descifrado[i] =' ';}
@@ -61,14 +62,14 @@ char *Descifrado::Descifrador(){
     cout<<endl;
     cout<<endl;
     cont = 0;
-    for(int i = 0; i<MensajeD.length(); i++){
+    for(int i = 0; i<cont2; i++){
         cout<< ClaveD[cont] << " | ";
         cont++;
         if(cont == ClaveD.length()){cont = 0;}
     }
     cout<<endl;
     cont = 0;
-    for(int i = 0; i<MensajeD.length(); i++){
+    for(int i = 0; i<cont2; i++){
         cout<< aux2[cont] << " | ";
         cont++;
         if(cont == ClaveD.length()){cont = 0;}

@@ -29,7 +29,7 @@ Cifrado::~Cifrado()
 
 char *Cifrado::Cifrador(){
     Mensaje_cifrado = new char [Mensaje.length()];
-    int aux,aux2[Clave.length()],cont = 0,num[Mensaje.length()];
+    int aux,aux2[Clave.length()],cont = 0,num[Mensaje.length()],temp = 0;
     for(int i=0; Clave[i]!= NULL; i++){
         for(int k = 0; k<26; k++){
             if(Clave[i]==Alfabeto[k]){aux2[i]=k;}
@@ -51,6 +51,7 @@ char *Cifrado::Cifrador(){
             num[i] = (aux+aux2[cont])%26;
             Mensaje_cifrado[i]=Alfabeto[(aux+aux2[cont])%26];
             cont++;
+            temp++;
             if(cont==Clave.length()){cont = 0;}
         }
         else{Mensaje_cifrado[i] =' ';}
@@ -58,14 +59,14 @@ char *Cifrado::Cifrador(){
     cont = 0;
     cout<<endl;
     cout<<endl;
-    for(int i = 0; i<Mensaje.length(); i++){
+    for(int i = 0; i<temp; i++){
         cout<< Clave[cont] << " | ";
         cont++;
         if(cont == Clave.length()){cont = 0;}
     }
     cout<<endl;
     cont = 0;
-    for(int i = 0; i<Mensaje.length(); i++){
+    for(int i = 0; i<temp; i++){
         cout<< aux2[cont] << " | ";
         cont++;
         if(cont == Clave.length()){cont = 0;}
